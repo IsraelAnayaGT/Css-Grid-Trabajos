@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-areas:
+    ".         .   .     .        . " 
+    ".         .   .     .        . " 
+    "card-1 card-2 .  card-4 card-5"
+    "card-1 card-3 .  card-6 card-6"
+    ".         .   .     .        . "
+    ".         .   .     .        . ";
+    height: 100vh;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+.item-one{
+    background: hotpink;
+    grid-area: card-1;
+    border-radius: 20px;
+    
+}
+
+.item-three{
+    background: red;
+    grid-area: card-2;
+    border-radius: 10px;
+}
+
+.item-two{
+    background: blue;
+    grid-area: card-3;
+    border-radius: 10px;
+}
+
+.item-four{
+    background: violet;
+    grid-area: card-4;
+    border-radius: 10px;
+}
+
+.item-five{
+    background: yellow;
+    grid-area: card-5;
+    border-radius: 10px;
+}
+.item-six{
+    background: orange;
+    grid-area: card-6;
+    border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: papayawhip;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60px;
+    height: 60px;
+}
+
+.item:nth-child(1) {
+    background: hotpink;
+    place-self: center stretch;
+}
+.item:not(:nth-child(1)) {
+    background: turquoise;
+    
+}

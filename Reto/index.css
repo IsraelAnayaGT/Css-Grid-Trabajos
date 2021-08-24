@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.padre{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+}
+
+.padre-hijo{
+    background-color: violet;
+    width: 50%;
+    height: 50px;
+}
+
+.hijo{
+    background-color: white;
+    width: 50%;
+    height: 50%;
+}

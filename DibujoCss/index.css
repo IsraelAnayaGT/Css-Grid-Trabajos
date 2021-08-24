@@ -1,0 +1,144 @@
+:root {
+    --skin: #f6c09c;
+    --background: #ed4042;
+    --red: #ed2860;
+    --dark-red: #680524;
+    --black: #00243a;
+    --white: #fff;
+  }
+
+  body{
+    margin: 0;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+ 
+  .head{
+    width: 100px;
+    height: 200px;
+    background: var(--skin);
+    border-radius: 50px;
+    position: relative;
+  }
+
+  .eye-left{
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+    left: 30px;
+  }
+
+  .eye-right{
+    width: 20px;
+    height: 20px;
+    background: var(--white);
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+    right: 30px;
+  }
+
+  .eye-left-iris{
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    position: absolute;
+    top: 7px;
+    border-radius: 50%;
+    left: 7px;
+  }
+
+  .eye-right-iris{
+    width: 5px;
+    height: 5px;
+    background: var(--black);
+    position: absolute;
+    top: 7px;
+    border-radius: 50%;
+    right: 7px;
+  }
+
+  .nose{
+    width: 30px;
+    height: 30px;
+    background: var(--skin);
+    position: absolute;
+    top: -7px;
+    border-radius: 50%;
+    left: 35px;
+    
+  }
+
+  .barba{
+    background: var(--black);
+    width: 100px;
+    height: 120px;
+    position: relative;
+    top: 90px;
+    border-radius: 30%;
+  }
+
+  .cuello{
+    width: 50px;
+    height: 100px;
+    background: var(--skin);
+    position: absolute;
+    top: 150px;
+    left: 25px;
+  }
+
+  .boca{
+    width: 50px;
+    height: 25px;
+    background: var(--dark-red);
+    position: absolute;
+    top: 40px;
+    left: 26px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .dientes{
+    width: 50px;
+    height: 7px;
+    background: var(--white);
+    position: absolute;
+    top: 0
+  }
+
+  .lengua{
+    width: 30px;
+    height: 15px;
+    background: var(--red);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 30%;
+  }
+
+  .ear-left{
+    width: 20px;
+    height: 20px;
+    background: var(--skin);
+    position: absolute;
+    top: 60px;
+    left: -10px;
+    border-radius: 50%;
+  }
+
+  .ear-rigth{
+    width: 20px;
+    height: 20px;
+    background: var(--skin);
+    position: absolute;
+    top: 60px;
+    right: -10px;
+    border-radius: 50%;
+  } 
